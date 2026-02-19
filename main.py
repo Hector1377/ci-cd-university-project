@@ -1,11 +1,19 @@
 from fastapi import FastAPI
 
-app = FastAPI()
+app = FastAPI(
+    title="CI/CD Python Project",
+    description="University project demonstrating CI/CD with GitHub Actions",
+    version="1.0.0"
+)
 
 @app.get("/")
-async def root():
-    return {"message": "🎓 CI/CD Python Project ✅", "repo": "Hector1377"}
+def root():
+    return {
+        "message": "Welcome to CI/CD Python Project"
+    }
 
 @app.get("/health")
-async def health():
-    return {"status": "healthy"}
+def health():
+    return {
+        "status": "healthy"
+    }
