@@ -12,6 +12,5 @@ Educational **CI/CD pipeline** demonstrating modern DevOps practices using GitHu
 - 🔄 Complete CI/CD Workflow
 - 📦 GitHub Container Registry Publishing
 - 🔐 Security Scanning (SAST, DAST, Container)
-- 🌐 Multi-environment Deployment
-
+- 
 ## 🛠️ Tech Stack
